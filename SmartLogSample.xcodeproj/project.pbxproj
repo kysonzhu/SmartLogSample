@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B9324736DB97F0C21700C50 /* Pods_SmartLogSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3695042D93FB95514B0EA206 /* Pods_SmartLogSample.framework */; };
+		D6E5B09E2248D93E0059706A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5B09D2248D93E0059706A /* AppDelegate.m */; };
+		D6E5B0A12248D93E0059706A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5B0A02248D93E0059706A /* ViewController.m */; };
+		D6E5B0A42248D93E0059706A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E5B0A22248D93E0059706A /* Main.storyboard */; };
+		D6E5B0A62248D9400059706A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E5B0A52248D9400059706A /* Assets.xcassets */; };
+		D6E5B0A92248D9400059706A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E5B0A72248D9400059706A /* LaunchScreen.storyboard */; };
+		D6E5B0AC2248D9400059706A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5B0AB2248D9400059706A /* main.m */; };
+		D6E5B0C52248D95F0059706A /* SDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5B0B32248D95F0059706A /* SDManager.m */; };
+		D6E5B0C62248D95F0059706A /* UIWindow+Smart.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5B0B42248D95F0059706A /* UIWindow+Smart.m */; };
+		D6E5B0C72248D95F0059706A /* UIApplication+Smart.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5B0B82248D95F0059706A /* UIApplication+Smart.m */; };
+		D6E5B0C82248D95F0059706A /* UIView+Smart.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5B0BA2248D95F0059706A /* UIView+Smart.m */; };
+		D6E5B0C92248D95F0059706A /* SDSnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5B0BE2248D95F0059706A /* SDSnapShot.m */; };
+		D6E5B0CA2248D95F0059706A /* UIViewController+Smart.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5B0C02248D95F0059706A /* UIViewController+Smart.m */; };
+		D6E5B0CB2248D95F0059706A /* SDUIImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5B0C12248D95F0059706A /* SDUIImageTools.m */; };
+		D6E5B0CC2248D95F0059706A /* SDEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5B0C22248D95F0059706A /* SDEvent.m */; };
+		D6E5B0CD2248D95F0059706A /* SDViewUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5B0C42248D95F0059706A /* SDViewUtility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3695042D93FB95514B0EA206 /* Pods_SmartLogSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartLogSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BC962C37B24C0413C9A204 /* Pods-SmartLogSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartLogSample.release.xcconfig"; path = "Target Support Files/Pods-SmartLogSample/Pods-SmartLogSample.release.xcconfig"; sourceTree = "<group>"; };
+		D6E5B0992248D93E0059706A /* SmartLogSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartLogSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E5B09C2248D93E0059706A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6E5B09D2248D93E0059706A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6E5B09F2248D93E0059706A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6E5B0A02248D93E0059706A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6E5B0A32248D93E0059706A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6E5B0A52248D9400059706A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6E5B0A82248D9400059706A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6E5B0AA2248D9400059706A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E5B0AB2248D9400059706A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6E5B0B32248D95F0059706A /* SDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDManager.m; sourceTree = "<group>"; };
+		D6E5B0B42248D95F0059706A /* UIWindow+Smart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Smart.m"; sourceTree = "<group>"; };
+		D6E5B0B52248D95F0059706A /* SDSnapShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSnapShot.h; sourceTree = "<group>"; };
+		D6E5B0B62248D95F0059706A /* SDUIImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDUIImageTools.h; sourceTree = "<group>"; };
+		D6E5B0B72248D95F0059706A /* UIViewController+Smart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Smart.h"; sourceTree = "<group>"; };
+		D6E5B0B82248D95F0059706A /* UIApplication+Smart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Smart.m"; sourceTree = "<group>"; };
+		D6E5B0B92248D95F0059706A /* SDViewUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDViewUtility.h; sourceTree = "<group>"; };
+		D6E5B0BA2248D95F0059706A /* UIView+Smart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Smart.m"; sourceTree = "<group>"; };
+		D6E5B0BB2248D95F0059706A /* SDEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDEvent.h; sourceTree = "<group>"; };
+		D6E5B0BC2248D95F0059706A /* UIWindow+Smart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Smart.h"; sourceTree = "<group>"; };
+		D6E5B0BD2248D95F0059706A /* SDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDManager.h; sourceTree = "<group>"; };
+		D6E5B0BE2248D95F0059706A /* SDSnapShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSnapShot.m; sourceTree = "<group>"; };
+		D6E5B0BF2248D95F0059706A /* UIApplication+Smart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Smart.h"; sourceTree = "<group>"; };
+		D6E5B0C02248D95F0059706A /* UIViewController+Smart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Smart.m"; sourceTree = "<group>"; };
+		D6E5B0C12248D95F0059706A /* SDUIImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDUIImageTools.m; sourceTree = "<group>"; };
+		D6E5B0C22248D95F0059706A /* SDEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDEvent.m; sourceTree = "<group>"; };
+		D6E5B0C32248D95F0059706A /* UIView+Smart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Smart.h"; sourceTree = "<group>"; };
+		D6E5B0C42248D95F0059706A /* SDViewUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDViewUtility.m; sourceTree = "<group>"; };
+		EB40E82EE5611D610B6C7AE5 /* Pods-SmartLogSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartLogSample.debug.xcconfig"; path = "Target Support Files/Pods-SmartLogSample/Pods-SmartLogSample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E5B0962248D93E0059706A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9324736DB97F0C21700C50 /* Pods_SmartLogSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B52D7CF0D17ADCD5483613F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3695042D93FB95514B0EA206 /* Pods_SmartLogSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6E5B0902248D93E0059706A = {
+			isa = PBXGroup;
+			children = (
+				D6E5B09B2248D93E0059706A /* SmartLogSample */,
+				D6E5B09A2248D93E0059706A /* Products */,
+				E473F4030E049497ADACED0A /* Pods */,
+				B52D7CF0D17ADCD5483613F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E5B09A2248D93E0059706A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E5B0992248D93E0059706A /* SmartLogSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6E5B09B2248D93E0059706A /* SmartLogSample */ = {
+			isa = PBXGroup;
+			children = (
+				D6E5B0B22248D95F0059706A /* SmartManager */,
+				D6E5B09C2248D93E0059706A /* AppDelegate.h */,
+				D6E5B09D2248D93E0059706A /* AppDelegate.m */,
+				D6E5B09F2248D93E0059706A /* ViewController.h */,
+				D6E5B0A02248D93E0059706A /* ViewController.m */,
+				D6E5B0A22248D93E0059706A /* Main.storyboard */,
+				D6E5B0A52248D9400059706A /* Assets.xcassets */,
+				D6E5B0A72248D9400059706A /* LaunchScreen.storyboard */,
+				D6E5B0AA2248D9400059706A /* Info.plist */,
+				D6E5B0AB2248D9400059706A /* main.m */,
+			);
+			path = SmartLogSample;
+			sourceTree = "<group>";
+		};
+		D6E5B0B22248D95F0059706A /* SmartManager */ = {
+			isa = PBXGroup;
+			children = (
+				D6E5B0BB2248D95F0059706A /* SDEvent.h */,
+				D6E5B0C22248D95F0059706A /* SDEvent.m */,
+				D6E5B0BD2248D95F0059706A /* SDManager.h */,
+				D6E5B0B32248D95F0059706A /* SDManager.m */,
+				D6E5B0B52248D95F0059706A /* SDSnapShot.h */,
+				D6E5B0BE2248D95F0059706A /* SDSnapShot.m */,
+				D6E5B0B62248D95F0059706A /* SDUIImageTools.h */,
+				D6E5B0C12248D95F0059706A /* SDUIImageTools.m */,
+				D6E5B0B92248D95F0059706A /* SDViewUtility.h */,
+				D6E5B0C42248D95F0059706A /* SDViewUtility.m */,
+				D6E5B0BF2248D95F0059706A /* UIApplication+Smart.h */,
+				D6E5B0B82248D95F0059706A /* UIApplication+Smart.m */,
+				D6E5B0C32248D95F0059706A /* UIView+Smart.h */,
+				D6E5B0BA2248D95F0059706A /* UIView+Smart.m */,
+				D6E5B0B72248D95F0059706A /* UIViewController+Smart.h */,
+				D6E5B0C02248D95F0059706A /* UIViewController+Smart.m */,
+				D6E5B0BC2248D95F0059706A /* UIWindow+Smart.h */,
+				D6E5B0B42248D95F0059706A /* UIWindow+Smart.m */,
+			);
+			path = SmartManager;
+			sourceTree = "<group>";
+		};
+		E473F4030E049497ADACED0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB40E82EE5611D610B6C7AE5 /* Pods-SmartLogSample.debug.xcconfig */,
+				53BC962C37B24C0413C9A204 /* Pods-SmartLogSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6E5B0982248D93E0059706A /* SmartLogSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E5B0AF2248D9400059706A /* Build configuration list for PBXNativeTarget "SmartLogSample" */;
+			buildPhases = (
+				B942169066993F8F50E839A8 /* [CP] Check Pods Manifest.lock */,
+				D6E5B0952248D93E0059706A /* Sources */,
+				D6E5B0962248D93E0059706A /* Frameworks */,
+				D6E5B0972248D93E0059706A /* Resources */,
+				0BCFFCED0BE846ACDA9B12F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartLogSample;
+			productName = SmartLogSample;
+			productReference = D6E5B0992248D93E0059706A /* SmartLogSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6E5B0912248D93E0059706A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "达疆";
+				TargetAttributes = {
+					D6E5B0982248D93E0059706A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D6E5B0942248D93E0059706A /* Build configuration list for PBXProject "SmartLogSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6E5B0902248D93E0059706A;
+			productRefGroup = D6E5B09A2248D93E0059706A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6E5B0982248D93E0059706A /* SmartLogSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6E5B0972248D93E0059706A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E5B0A92248D9400059706A /* LaunchScreen.storyboard in Resources */,
+				D6E5B0A62248D9400059706A /* Assets.xcassets in Resources */,
+				D6E5B0A42248D93E0059706A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BCFFCED0BE846ACDA9B12F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartLogSample/Pods-SmartLogSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartLogSample/Pods-SmartLogSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B942169066993F8F50E839A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartLogSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6E5B0952248D93E0059706A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E5B0C52248D95F0059706A /* SDManager.m in Sources */,
+				D6E5B0A12248D93E0059706A /* ViewController.m in Sources */,
+				D6E5B0AC2248D9400059706A /* main.m in Sources */,
+				D6E5B0CC2248D95F0059706A /* SDEvent.m in Sources */,
+				D6E5B09E2248D93E0059706A /* AppDelegate.m in Sources */,
+				D6E5B0C72248D95F0059706A /* UIApplication+Smart.m in Sources */,
+				D6E5B0CA2248D95F0059706A /* UIViewController+Smart.m in Sources */,
+				D6E5B0CB2248D95F0059706A /* SDUIImageTools.m in Sources */,
+				D6E5B0CD2248D95F0059706A /* SDViewUtility.m in Sources */,
+				D6E5B0C82248D95F0059706A /* UIView+Smart.m in Sources */,
+				D6E5B0C92248D95F0059706A /* SDSnapShot.m in Sources */,
+				D6E5B0C62248D95F0059706A /* UIWindow+Smart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6E5B0A22248D93E0059706A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E5B0A32248D93E0059706A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6E5B0A72248D9400059706A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E5B0A82248D9400059706A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6E5B0AD2248D9400059706A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6E5B0AE2248D9400059706A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6E5B0B02248D9400059706A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB40E82EE5611D610B6C7AE5 /* Pods-SmartLogSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUL3Z494XF;
+				INFOPLIST_FILE = SmartLogSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dada.SmartLogSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6E5B0B12248D9400059706A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BC962C37B24C0413C9A204 /* Pods-SmartLogSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUL3Z494XF;
+				INFOPLIST_FILE = SmartLogSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dada.SmartLogSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6E5B0942248D93E0059706A /* Build configuration list for PBXProject "SmartLogSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E5B0AD2248D9400059706A /* Debug */,
+				D6E5B0AE2248D9400059706A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E5B0AF2248D9400059706A /* Build configuration list for PBXNativeTarget "SmartLogSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E5B0B02248D9400059706A /* Debug */,
+				D6E5B0B12248D9400059706A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6E5B0912248D93E0059706A /* Project object */;
+}
