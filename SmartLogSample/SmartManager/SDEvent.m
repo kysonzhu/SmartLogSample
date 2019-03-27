@@ -2,8 +2,8 @@
 //  SDEvent.m
 //  SocketRobotDemo
 //
-//  Created by liyazhou on 2019/1/29.
-//  Copyright © 2019 达疆. All rights reserved.
+//  Created by kyson老师 on 2019/1/29.
+//  Copyright https://www.kyson.cn All rights reserved.
 //
 
 #import "SDEvent.h"

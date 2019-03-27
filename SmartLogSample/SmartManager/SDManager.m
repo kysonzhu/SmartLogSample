@@ -2,8 +2,8 @@
 //  SDManager.m
 //  SocketRobotDemo
 //
-//  Created by liyazhou on 2019/3/25.
-//  Copyright © 2019 达疆. All rights reserved.
+//  Created by kyson老师 on 2019/3/25.
+//  Copyright https://www.kyson.cn All rights reserved.
 //
 
 #import "SDManager.h"
@@ -63,10 +63,10 @@
     AFHTTPRequestSerializer *serializer = [[AFHTTPRequestSerializer alloc] init];
     [serializer setValue:@"*/*" forHTTPHeaderField:@"accept"];
     [AFHTTPSessionManager manager].requestSerializer = serializer;
-    [[AFHTTPSessionManager manager] GET:@"https://smart-user.imdada.cn/event/config/list" parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
+    [[AFHTTPSessionManager manager] GET:@"https://HOST地址/config/list" parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"\n####request:https://smart-user.imdada.cn/event/config/list \n####response:%@\n",responseObject);
+
         NSDictionary *response = (NSDictionary *) responseObject;
         if ([response isKindOfClass:[NSDictionary class]])
         {

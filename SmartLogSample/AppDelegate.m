@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  SmartLogSample
 //
-//  Created by liyazhou on 2019/3/25.
-//  Copyright © 2019 达疆. All rights reserved.
+//  Created by kyson老师 on 2019/3/25.
+//  Copyright https://www.kyson.cn All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [[SDManager shareInstance] connectServer:@"ws://smart-manager.corp.imdada.cn/wc/5/ios/15261816292/iphone8plus"];
+    [[SDManager shareInstance] connectServer:@"ws://HOST地址"];
     return YES;
 }
 

@@ -2,8 +2,8 @@
 //  SDViewUtility.h
 //  SocketRobotDemo
 //
-//  Created by liyazhou on 2019/2/14.
-//  Copyright © 2019 达疆. All rights reserved.
+//  Created by kyson老师 on 2019/2/14.
+//  Copyright https://www.kyson.cn All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -2,8 +2,8 @@
 //  SDSnapShot.h
 //  SocketRobotDemo
 //
-//  Created by liyazhou on 2019/1/28.
-//  Copyright © 2019 达疆. All rights reserved.
+//  Created by kyson老师 on 2019/1/28.
+//  Copyright https://www.kyson.cn All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

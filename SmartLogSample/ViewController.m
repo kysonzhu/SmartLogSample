@@ -2,8 +2,8 @@
 //  ViewController.m
 //  SmartLogSample
 //
-//  Created by liyazhou on 2019/3/25.
-//  Copyright © 2019 达疆. All rights reserved.
+//  Created by kyson老师 on 2019/3/25.
+//  Copyright https://www.kyson.cn All rights reserved.
 //
 
 #import "ViewController.h"

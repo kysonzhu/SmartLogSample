@@ -2,7 +2,7 @@
 //  UIApplication.m
 //  shop
 //
-//  Created by liyazhou on 2019/3/19.
+//  Created by kyson老师 on 2019/3/19.
 //  Copyright © 2019 DaDa Inc. All rights reserved.
 //
 
@@ -58,14 +58,14 @@
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] init];
     manager.requestSerializer = serializer;
 
-    [manager POST:@"https://smart-user.imdada.cn/event/log/upload" parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
+    [manager POST:@"https://Host地址/event/log/upload" parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
 
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"\n####https://smart-user.imdada.cn/event/log/upload \n####response:%@\n",responseObject);
 
+        
 
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        NSLog(@"\n####https://smart-user.imdada.cn/event/log/upload \n####error:%@\n",error);
+
     }];
 }
 
